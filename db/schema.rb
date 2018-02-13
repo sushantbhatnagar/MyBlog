@@ -12,6 +12,7 @@
 
 ActiveRecord::Schema.define(version: 20180213062736) do
 
+  # generated created tables with title, description, created_at and updated_at	
   create_table "articles", force: :cascade do |t|
     t.string "title"
     t.text "description"
